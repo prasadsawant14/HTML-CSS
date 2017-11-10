@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Grids</title>
+	<style type="text/css">
+		.wrapper{
+			display: grid;
+			grid-template-columns: 70% 30%;
+			/*grid-column-gap: 1em;
+			grid-row-gap:1em;*/
+
+			grid-gap: 1em ;
+		}
+		.wrapper > div{
+			background: #eee;
+			padding: 1em;
+		}
+
+		.wrapper > div:nth-child(odd){
+			background: #ddd;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reprehenderit dolorem neque est, unde harum? Error saepe harum, autem accusantium necessitatibus quisquam deserunt beatae odio maiores voluptas qui, eligendi, fuga enim non aliquam ad recusandae voluptate exercitationem perspiciatis a! Quibusdam repudiandae quo sit dolor quam in sequi accusantium tempora amet ex. Autem reprehenderit ipsa quam, laboriosam repellat ea, debitis dolore voluptas eos, id molestiae qui, consequuntur error quasi accusamus esse est maxime ipsam harum nihil provident tempora. Facere, eveniet quo!
+		</div>
+		<div>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga accusantium nulla illum assumenda consectetur! Fuga incidunt quia porro cupiditate culpa similique quos voluptatibuel ut obcaecati repellat cum, sunt enim.
+		</div><div>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reprehenderit dolorem neque est, unde harum? Error saepe harum, autem accusantium necessitatibus quisquam deserunt beatae odio maiores voluptas qui, eligendi, fuga enim non aliquam ad recusandae voluptate exercitationem perspiciatis a! Quibusdam repudiandae quo sit dolor quam in sequi accusantium tempora amet ex. Autem reprehenderit ipsa quam, laboriosam repellat ea, debitis dolore voluptas eos, id molestiae qui, consequuntur error quasi accusamus esse est maxime ipsam harum nihil provident tempora. Facere, eveniet quo!
+		</div>
+		<div>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga accusantium nulla illum assumenda consectetur! Fuga incidunt quia porro cupiditate culpa similique quos voluptatibuel ut obcaecati repellat cum, sunt enim.
+		</div>
+	</div>
+</body>
+</html>
